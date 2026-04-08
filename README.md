@@ -10,18 +10,18 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome:Tiago Sousa de Borba
+- Matricula: 910976
+- Proposta de projeto escolhida: Um site de notícias sobre futebol
+- Breve descrição sobre seu projeto: O Football News é um portal dedicado aos fãs de futebol que querem se manter atualizados de forma rápida e simples. No site, você encontra as últimas notícias, destaques sobre times e campeonatos, além de uma área com tabela de jogos para acompanhar as competições.
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](imagens/desktop.png)
 
 ## Print da versão responsiva com Bootstrap [MOBILE] (*)
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](<imagens/mobile print.png>)
 
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
