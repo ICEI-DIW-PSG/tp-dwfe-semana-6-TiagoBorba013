@@ -4,48 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
-    <header class="cabeçalho">
-       <a href="#"><h1>FOOTBALL NEWS</h1></a><br>
-       <nav class="topo">
-        <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">NOTÍCIAS</a></li>
-            <li><a href="#">JOGOS</a></li>
-            <li><a href="#">CONTATOS</a></li>
-         </ul>
-       </nav>
-    </header>
-    <main class="menu">
-     <img class="banner" src="imagens/Logo de futebol em destaque.png" alt="banner">
-     <p class="txt">Bem-vindo ao Football News! O seu portal para ficar por dentro de tudo que acontece no mundo do futebol. Aqui você encontra notícias, resultados, análises e as principais novidades dos campeonatos e times. Tudo de forma simples, rápida e confiável para você não perder nenhum lance. ⚽</p>
-    </main>
-    <section class="menu5">
-        <div class="noticias">
-        <h1>ÚLTIMAS NOTÍCIAS</h1><br/>
-        <h2>CRISE NO FUTEBOL MINEIRO?</h2>
-        <img class="img" src="imagens/cruzeiro.jpg" alt="cruzeiro"><br>
-        <p class="texto">
-            Cruzeiro segue sem vencer no brasileirão e volta ser o lanterna! Será que os péssimos resultados se manteram também na libertadores?
-        </p>
-        <img class="img" src="imagens/galo.jpg" alt="galo">
-        <p class="texto">
-            O Atlético perde mais uma fora de casa e se distancia do topo da tabela. Será que o "Barba" vai conseguir consertar esse problema crônico do galo de não conseguir vencer fora da Arena?
-        </p>
+    <nav class="navbar navbar-expand-lg bg-success" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">FOOTBALLNEWS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
         </div>
-         <article class="menu7">
-        <p>TABELA DE JOGOS</p>
-        <img class="champ" src="imagens/uefa-champions-league.gif" alt="champions">
-       <img class="img2" src="imagens/Captura de tela 2026-03-27 102356.png" alt="tabela">
-        </article>
-    </section>
-    <footer class="rodapé">
-        <p>© 2026 Football News - Todos os direitos reservados</p>
-    <p>Instagram: <a href="#">@football_news</a></p>                                                                        </p>
-    </footer>
+      </div>
+    </nav>
+
+    <div class="container my-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6 text-center">
+            <img src="imagens/Logo de futebol em destaque (1).png" class="img-fluid mx-auto d-block" style="max-width: 300px;" alt="banner">
+            <p class="texto mt-3">
+                Bem-vindo ao Football News! O seu portal para ficar por dentro de tudo que acontece no mundo do futebol. Aqui você encontra notícias, resultados, análises e as principais novidades dos campeonatos e times. Tudo de forma simples, rápida e confiável para você não perder nenhum lance. ⚽
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="container my-4">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    
+    <div class="col">
+      <div class="card h-100">
+        <img src="imagens/cruzeiro (1).jpg" class="card-img-top" alt="cruzeiro">
+        <div class="card-body">
+          <h5 class="card-title">CRISE NO CRUZEIRO?</h5>
+          <p class="card-text">Cruzeiro segue sem vencer no brasileirão e volta ser o lanterna! Será que os péssimos resultados se manteram também na libertadores?</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary"></small>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="imagens/galo (1).jpg" class="card-img-top" alt="galo">
+        <div class="card-body">
+          <h5 class="card-title">GALO NÃO CONSEGUE VENCER FORA!</h5>
+          <p class="card-text">O Atlético perde mais uma fora de casa e se distancia do topo da tabela. Será que o "Barba" vai conseguir consertar esse problema crônico do galo?</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary"></small>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="imagens/image.png" class="card-img-top" alt="real madrid">
+        <div class="card-body">
+          <h5 class="card-title">REAL MADRID PERDE PRIMEIRO JOGO DO MATA-MATA!</h5>
+          <p class="card-text"> O mandante do jogo, Real Madrid, não consegue estabeler o poder de jogar em casa e sofre a derrota para o Bayern. Porém, mesmo o time merengue jogando mal, o artilheiro do time, Kilyan Mbappe, consegue fazer um gol de esperança para o jogo de volta na Alemanha.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary"></small>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
 
 
 
